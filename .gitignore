@@ -1,0 +1,29 @@
+#spring boot
+*.class
+*.log
+*.tmp
+*.swp
+
+#building artifacts
+target/
+**/target/
+*.jar
+*.war
+
+.env
+.env.*
+application-local.properties
+application-local.yaml
+
+#maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+vnw.cmd
+vnw.cmd.orig
+
+#intellij
+.idea/
+*.iws
+*.iml
+*.ipr
